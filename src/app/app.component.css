@@ -1,0 +1,39 @@
+.sidenav {
+  padding-top: 20px;
+  position: fixed;
+  top: 0%;
+  overflow: hidden;
+}
+
+.sidenav ul {
+  padding-left: 0;
+}
+
+.sidenav ul li {
+  list-style-type: none;
+}
+
+.sidenav ul li a {
+  list-style-type: none;
+  padding-bottom: 14px;
+  font-size: 18px;
+  color: #000;
+}
+
+.user-text {
+  padding-left: 12px;
+  color: #000;
+  font-size: 14px;
+}
+
+.fa:before {
+  color: #21425b;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.sidenav.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #fff !important;
+  color: #000 !important;
+}

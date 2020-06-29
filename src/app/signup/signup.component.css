@@ -1,0 +1,27 @@
+.buttons {
+  padding: 14% 36%;
+  background: #f2f2f2;
+  color: #fff;
+}
+.btn-primary.email-btn {
+  border: 1px solid #ccc;
+  background-color: #f2b01c;
+  padding: 6px 36px;
+  color: #fff;
+}
+.btn-primary.fb-btn {
+  border: 1px solid #ccc;
+  background-color: blue;
+  padding: 6px 29px;
+  color: #fff;
+}
+.btn-primary.twitter-btn {
+  border: 1px solid #ccc;
+  padding: 6px 32px;
+  color: #fff;
+}
+.btn-primary.google-btn {
+  border: 1px solid #ccc;
+  color: #fff;
+  padding: 6px 32px;
+}

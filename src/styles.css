@@ -1,0 +1,212 @@
+/* You can add global styles to this file, and also import other style files */
+.sidenav {
+  padding-top: 20px;
+}
+
+.sidenav ul {
+  padding-left: 0;
+}
+
+.sidenav ul li {
+  list-style-type: none;
+}
+
+.sidenav ul li a {
+  list-style-type: none;
+  padding-bottom: 14px;
+  font-size: 18px;
+  color: #000;
+}
+
+.user-text {
+  /* padding-left: 12px; */
+  color: #fff;
+  font-size: 14px;
+}
+
+.fa:before {
+  color: #21425b;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.sidenav.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.food-img {
+  background-image: url("https://d2vwsr3mua7yp8.cloudfront.net/f2320d45-2ee0-4672-9f42-6b584ff32bac_d3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.text__position {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.btn_menu {
+  background-color: yellow;
+  padding: 10px 0 9px 0;
+  margin: 10px 0 0 10px;
+  font-weight: 400;
+  color: #fff !important;
+}
+
+.btnt-warning.btn_menu:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  background-color: #f2b01c;
+  padding: 16px !important;
+}
+
+.info-text {
+  color: #fff;
+  text-align: center;
+}
+
+.fa-chevron-left:before,
+.fa-share-square-o:before {
+  color: #fff;
+  font-size: 18px;
+}
+
+.bg-grey {
+  background-color: #21425b;
+  text-align: center;
+  padding: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://thepassstreetfood.co.uk/wp-content/uploads/2017/08/Special-Background-40-1920-opacity-copy.jpg");
+}
+
+.aspect-text {
+  text-align: center;
+  padding: 6% 6%;
+  color: #21425b;
+  font-size: 50px;
+}
+
+.info-description {
+  color: #21425b;
+  padding-top: 20px;
+}
+
+/* .top-fixed-bar {
+  position: fixed;
+  width: 64%;
+  top: 0%;
+  overflow: hidden;
+} */
+
+.info-footer {
+  border: 1px solid #ccc;
+  background-color: #21425b;
+  padding: 12px;
+  color: #fff;
+}
+
+.aspect-bar {
+  background: #ccc;
+}
+
+.alert-warning {
+  background-color: #edd31cdb !important;
+  color: #000;
+}
+
+.btn-block.btn-link {
+  color: #000 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn-block.btn-link:hover {
+  text-decoration: none;
+}
+
+.fa.fa-search:before {
+  color: #fff;
+  font-size: 18px;
+}
+
+.border-row {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.border-row .fa:before {
+  color: #000;
+  font-size: 18px;
+}
+
+.img-food img {
+  object-fit: contain;
+  width: 256px;
+  height: 229px;
+}
+
+.spacer10 {
+  height: 20px;
+}
+
+.feedback-form,
+.join-newsletter {
+  background: #21425b;
+  padding: 20px;
+  color: #fff;
+}
+
+.topnav .navbar {
+  border: 1px solid #ccc;
+  background-color: #21425b;
+}
+
+.topnav .fa:before {
+  color: #fff;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.contain-width {
+  max-width: 900px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    display: none;
+  }
+  .btn-warning {
+    width: 100%;
+  }
+  .feedback-form .btn-warning {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .sidenav {
+    display: none;
+  }
+  .btn-warning {
+    width: 100%;
+  }
+  .feedback-form .btn-warning {
+    width: 100%;
+  }
+}

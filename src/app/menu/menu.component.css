@@ -1,0 +1,6 @@
+.fa-cart-plus:before,
+.fa-info:before {
+  color: grey;
+  font-size: 28px;
+  vertical-align: -webkit-baseline-middle;
+}

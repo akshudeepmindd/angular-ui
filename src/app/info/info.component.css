@@ -1,0 +1,57 @@
+.food-img {
+  background-image: url("https://d2vwsr3mua7yp8.cloudfront.net/f2320d45-2ee0-4672-9f42-6b584ff32bac_d3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.text__position {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.btn_menu {
+  background-color: yellow;
+  padding: 10px 0 9px 0;
+  margin: 10px 0 0 10px;
+  font-weight: 400;
+  color: #fff !important;
+}
+
+.btnt-warning.btn_menu:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  background-color: #f2b01c;
+  padding: 16px !important;
+}
+
+.info-text {
+  color: #fff;
+  text-align: center;
+}
+
+.fa-chevron-left:before,
+.fa-share-square-o:before {
+  color: #fff;
+  font-size: 18px;
+}
+
+.bg-grey {
+  background-color: #21425b;
+  text-align: center;
+  padding: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://thepassstreetfood.co.uk/wp-content/uploads/2017/08/Special-Background-40-1920-opacity-copy.jpg");
+}
