@@ -1,18 +1,18 @@
 <div class="row">
   <div class="col-md-9">
-    <div class="row mt-2">
-      <div class="col-md-6">
-        <i class="fa fa-envelope-open-o pb-2" aria-hidden="true"></i>
-      </div>
-      <div class="col-md-6">
+    <div class="mt-2">
+      <div class="ico-white">
+        <i class="fa fa-envelope-open-o pb-2 float-left m-4" aria-hidden="true"></i>
+
         <a routerLink="/settings">
-          <i class="fa fa-cog float-right" aria-hidden="true"></i
+          <i class="fa fa-cog float-right m-4" aria-hidden="true"></i
         ></a>
       </div>
     </div>
-    <div class="aspect-text">
+    <div class="aspect-text revoils-text">
       Raviolis
     </div>
+
     <div
       id="carouselExampleControls"
       class="carousel slide"
@@ -23,25 +23,28 @@
           <img
             src="https://www.cdc.gov/foodsafety/images/comms/food-Safety-Tips-small.jpg"
             style="width: 100%;"
-            class="d-block"
+            class="d-block img-fluid"
             alt="..."
           />
+          <div class="bg-border"></div>
         </div>
         <div class="carousel-item">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXdAcWoxInWNHhmhcC6u48XJ97WR1uyppkTg&usqp=CAU"
             style="width: 100%;"
-            class="d-block"
+            class="d-block img-fluid"
             alt="..."
           />
+          <div class="bg-border"></div>
         </div>
         <div class="carousel-item">
           <img
             src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/article/2020/04/22/coronavirus-and-obesity-doctors-take-aim-at-food-industry-over-poor-diets/10933380-3-eng-GB/Coronavirus-and-obesity-Doctors-take-aim-at-food-industry-over-poor-diets_wrbm_large.jpg"
             style="width: 100%;"
-            class="d-block"
+            class="d-block img-fluid"
             alt="..."
           />
+          <div class="bg-border"></div>
         </div>
       </div>
       <a
@@ -62,6 +65,50 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+      <div class="">
+        <div class="position-abs">
+          <a routerLink="/menu"
+            ><button type="button" class="btn-menu">Menu and Order</button></a
+          >
+        </div>
+      </div>
+      <div class="bg-border"></div>
+    </div>
+
+    <div class="home-sidenav">
+      <ul>
+        <li>
+          <a class="nav-link" routerLink="/">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <span class="user-text responsive-none">Home</span></a
+          >
+        </li>
+        <li>
+          <a class="nav-link active" routerLink="/info">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span class="user-text pl-4">Info</span></a
+          >
+        </li>
+
+        <li>
+          <a class="nav-link" routerLink="/about"
+            ><i class="fa fa-user-o" aria-hidden="true"></i>
+            <span class="user-text">About Us</span>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="/menu">
+            <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <span class="user-text">Menu and Order</span></a
+          >
+        </li>
+        <li class="more-info">
+          <a class="nav-link active" routerLink="/commonscreen">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            <span class="user-text pl-4">More</span></a
+          >
+        </li>
+      </ul>
     </div>
   </div>
 </div>

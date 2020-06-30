@@ -3,6 +3,8 @@
   padding: 6% 6%;
   color: #21425b;
   font-size: 50px;
+  border-radius: 50%;
+  border-bottom: 14px solid;
 }
 
 .info-description {
@@ -61,9 +63,9 @@
 }
 
 .img-food img {
-    object-fit: contain;
-    width: 256px;
-    height: 229px;
+  object-fit: contain;
+  width: 256px;
+  height: 229px;
 }
 
 .spacer10 {

@@ -16,6 +16,7 @@ import { RouterModule } from "@angular/router";
 import { SettingsComponent } from "./settings/settings.component";
 import { SignupComponent } from "./signup/signup.component";
 import { PrivacyComponent } from "./privacy/privacy.component";
+import { CommonscreenComponent } from './commonscreen/commonscreen.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { PrivacyComponent } from "./privacy/privacy.component";
     SettingsComponent,
     SignupComponent,
     PrivacyComponent,
+    CommonscreenComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +52,7 @@ import { PrivacyComponent } from "./privacy/privacy.component";
       { path: "newsletter", component: NewsletterComponent },
       { path: "signup", component: SignupComponent },
       { path: "privacy", component: PrivacyComponent },
+      { path: "commonscreen", component: CommonscreenComponent },
     ]),
   ],
   providers: [],
