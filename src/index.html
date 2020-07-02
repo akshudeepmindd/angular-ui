@@ -45,21 +45,15 @@
         import("https://unpkg.com/pwacompat");
       }
     </script>
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("sw.js").then(function () {
-          console.log("Service Worker Registered");
-        });
-      }
-    </script>
-    <link rel="manifest" href="manifest.json" />
-    <meta name="theme-color" content="#1976d2" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1976d2">
   </head>
   <body>
     <app-root></app-root>
     <noscript
       >Please enable JavaScript to continue using this application.</noscript
     >
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
   </body>
   <router-outlet></router-outlet>
 </html>
