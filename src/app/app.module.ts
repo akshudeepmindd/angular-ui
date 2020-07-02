@@ -17,6 +17,8 @@ import { SettingsComponent } from "./settings/settings.component";
 import { SignupComponent } from "./signup/signup.component";
 import { PrivacyComponent } from "./privacy/privacy.component";
 import { CommonscreenComponent } from './commonscreen/commonscreen.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,7 @@ import { CommonscreenComponent } from './commonscreen/commonscreen.component';
       { path: "privacy", component: PrivacyComponent },
       { path: "commonscreen", component: CommonscreenComponent },
     ]),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent],
