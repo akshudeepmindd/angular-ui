@@ -16,9 +16,10 @@ import { RouterModule } from "@angular/router";
 import { SettingsComponent } from "./settings/settings.component";
 import { SignupComponent } from "./signup/signup.component";
 import { PrivacyComponent } from "./privacy/privacy.component";
-import { CommonscreenComponent } from './commonscreen/commonscreen.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
+import { CommonscreenComponent } from "./commonscreen/commonscreen.component";
+import { ServiceWorkerModule } from "@angular/service-worker";
+import { environment } from "../environments/environment";
+import { DeliverComponent } from "./deliver/deliver.component";
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { environment } from '../environments/environment';
     SignupComponent,
     PrivacyComponent,
     CommonscreenComponent,
+    DeliverComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,8 +57,11 @@ import { environment } from '../environments/environment';
       { path: "signup", component: SignupComponent },
       { path: "privacy", component: PrivacyComponent },
       { path: "commonscreen", component: CommonscreenComponent },
+      { path: "deliver", component: DeliverComponent },
     ]),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register("ngsw-worker.js", {
+      enabled: environment.production,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

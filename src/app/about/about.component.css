@@ -94,3 +94,16 @@
 .contain-width {
   max-width: 900px !important;
 }
+
+.back-to-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #D6E3F0;
+  padding: 0.25rem;
+}

@@ -34,8 +34,7 @@
   text-align: center;
 }
 
-.fa-chevron-left:before,
-.fa-share-square-o:before {
+.fa-chevron-left:before, .fa-share-square-o:before {
   color: #fff;
   font-size: 18px;
 }
@@ -54,4 +53,24 @@
   width: 100%;
   height: 50vh;
   background-image: url("https://thepassstreetfood.co.uk/wp-content/uploads/2017/08/Special-Background-40-1920-opacity-copy.jpg");
+}
+
+.fa.fa-phone:before {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fa.fa-sitemap:before {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info-footer a {
+  color: #fff
+}
+
+.info-footer a:hover {
+  text-decoration: none;
 }

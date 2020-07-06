@@ -1,0 +1,13 @@
+.cali-field {
+    margin-left: 1rem;
+    width: 50%;
+    border-radius: 4px;
+    border: 0;
+    padding: 5px 7px;
+    color: #495057;
+}
+
+.cali-field:focus {
+    border: 0;
+    outline: 0;
+}

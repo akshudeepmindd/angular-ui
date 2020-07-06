@@ -180,6 +180,10 @@ body {
   font-size: 18px;
 }
 
+.more-text {
+  color: #000;
+}
+
 .border-row {
   border: 1px solid #ccc;
   padding: 3%;
@@ -233,12 +237,13 @@ body {
 .outer-circle {
   border: 1px solid #21425b;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin: 0px auto;
 }
-.revoil-text{
-  color:  #21425b;
+
+.revoil-text {
+  color: #21425b;
 }
 
 @media only screen and (max-width: 768px) {
@@ -255,6 +260,9 @@ body {
   }
   .home-sidenav ul li {
     display: inline-block;
+  }
+  .home-sidenav ul li a {
+    padding: 2px 15px;
   }
   .btn-warning {
     width: 100%;
@@ -311,8 +319,11 @@ body {
   .home-sidenav ul li {
     display: inline-block;
   }
+  .home-sidenav ul li a {
+    padding: 2px 15px;
+  }
   .home-sidenav ul {
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding-left: 0;
     text-align: center;
   }
@@ -361,5 +372,11 @@ body {
     border: 1px solid #ccc;
     padding: 6%;
     padding-bottom: 12%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidenav {
+    display: none;
   }
 }
