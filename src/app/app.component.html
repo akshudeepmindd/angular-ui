@@ -27,7 +27,11 @@
                 </a>
               </li>
               <li>
-                <a class="nav-link" routerLink="/menu">
+                <a
+                  class="nav-link"
+                  data-toggle="modal"
+                  data-target="#exampleModalLong"
+                >
                   <i class="fa fa-cutlery" aria-hidden="true"></i>
                   <span class="user-text">Menu and Order</span></a
                 >
@@ -70,6 +74,38 @@
                 >
               </li>
             </ul>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModalLong"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLongTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe
+                  src="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=63e0c53c-2a5c-4e52-a32a-8cb49a458f0a&client_is_mobile=true&glfa_cid=574196014.1555701256&glfa_t=1555707158912"
+                  style="border: none;"
+                  height="500px"
+                  width="100%"
+                  title="Iframe Example"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 resp-p">

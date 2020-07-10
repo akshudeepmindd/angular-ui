@@ -35,8 +35,7 @@ body {
   vertical-align: middle;
 }
 
-.sidenav.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.sidenav.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: #fff !important;
   color: #000 !important;
 }
@@ -77,8 +76,7 @@ body {
   text-align: center;
 }
 
-.fa-chevron-left:before,
-.fa-share-square-o:before {
+.fa-chevron-left:before, .fa-share-square-o:before {
   color: #fff;
   font-size: 18px;
 }
@@ -143,8 +141,7 @@ body {
   padding-bottom: 4%;
 }
 
-.ico-white .fa-envelope-open-o:before,
-.fa-cog:before {
+.ico-white .fa-envelope-open-o:before, .fa-cog:before {
   color: #fff;
 }
 
@@ -214,8 +211,7 @@ body {
   height: 20px;
 }
 
-.feedback-form,
-.join-newsletter {
+.feedback-form, .join-newsletter {
   background: #21425b;
   padding: 20px;
   color: #fff;
@@ -327,7 +323,7 @@ body {
     padding-bottom: 12%;
   }
   .carousel-item img {
-    min-height: 710px;
+    min-height: 400px;
     height: 100%;
   }
   .resp-p {
@@ -397,7 +393,7 @@ body {
     padding: 0;
   }
   .carousel-item img {
-    min-height: 480px;
+    min-height: 300px;
     height: 100%;
   }
 }
@@ -410,7 +406,7 @@ body {
     padding: 0;
   }
   .carousel-item img {
-    min-height: 480px;
+    min-height: 300px;
     height: 100%;
     display: block;
   }
@@ -441,9 +437,20 @@ body {
   }
 }
 
+@media only screen and (max-width: 411px) {
+  .carousel-item img {
+    min-height: 353px;
+    height: 100%;
+  }
+}
+
 @media only screen and (min-width: 375px) {
   .revoils-text img {
     width: 190px;
+  }
+  .carousel-item img {
+    min-height: 400px;
+    height: 100%;
   }
 }
 
