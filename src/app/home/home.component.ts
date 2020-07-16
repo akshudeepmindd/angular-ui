@@ -14,6 +14,9 @@ export class HomeComponent implements OnInit {
   public setIframUrl() {
     this.urlSafe = this.sanitizer.bypassSecurityTrustResourceUrl(this.url);
     console.log("hello");
+  
+
   }
   ngOnInit() {}
+
 }

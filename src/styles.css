@@ -307,6 +307,15 @@ body {
   height: 3000px
 }
 
+.top-btn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 21px;
+  background-color: hsla(5, 76%, 62%, .8)
+}
+
 /* .aspect-text.revoils-text {
   display: flex;
   justify-content: center;
@@ -319,7 +328,18 @@ body {
   vertical-align: sub;
 }
 
+.modal-header.header {
+  color: #fff;
+}
 
+.modal-header.header .fa.fa-chevron-left {
+  margin-top: 8px;
+}
+
+.modal-header.header .fa.fa-chevron-left:before {
+  font-size: 18px;
+  color: #fff;
+}
 
 @media only screen and (max-width: 768px) {
   .sidenav {
