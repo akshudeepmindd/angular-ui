@@ -2,7 +2,39 @@
 
 <body>
   <div>
-    <div class="container">
+    <div class="container contain-relative">
+      <div *ngIf="showModal" class="transparent_box">
+        <div class="modal-content innermodal">
+          <div class="modal-body text-center">
+            <p class="text-revol">
+              "Reviolister" Would like to send you notification
+            </p>
+            <p class="smal-txt">
+              Notification may include alerts,sounds and icon badges. These can
+              be configured in Settings
+            </p>
+          </div>
+          <div
+            class="modal-footer push-footer d-flex justify-content-space-around border-0"
+          >
+            <button
+              type="button"
+              class="btn btn-secondary btn-note"
+              (click)="hide()"
+            >
+              Notifyme
+            </button>
+            <button
+              (click)="hide()"
+              type="button"
+              class="btn btn-primary btn-tnakns"
+            >
+              No Thanks
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-3">
           <div class="sidenav">
@@ -87,7 +119,7 @@
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header header">
-                <a routerLink="/"
+                <a routerLink="/home"
                   ><i
                     class="fa fa-chevron-left float-left"
                     aria-hidden="true"

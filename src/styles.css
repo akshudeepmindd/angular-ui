@@ -307,14 +307,69 @@ body {
   height: 3000px
 }
 
-.top-btn {
+.push-modal {
+  max-width: 230px;
+}
+
+.text-revol {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  line-height: 20px;
+  padding-top: 1rem;
+}
+
+.smal-txt {
+  font-size: 11px;
+}
+
+.btn-tnakns {
+  background: #21425b;
+  color: #fff;
+  float: right;
+  border: 0;
+  font-size: 13px;
+}
+
+.btn-note {
+  background: #fff;
+  color: #000;
+  float: left;
+  border: 0;
+  font-size: 13px;
+}
+
+.contain-relative {
+  position: relative;
+}
+
+.modal-footer.push-footer {
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.transparent_box {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  left: 42%;
+  top: 32%;
+}
+
+.innermodal {
+  width: 230px;
+}
+
+/* .top-btn {
   position: fixed;
   bottom: 26px;
   right: 39px;
   z-index: 98;
-  padding: 21px;
-  background-color: hsla(5, 76%, 62%, .8)
-}
+  padding: 12px;
+  background-color: hsla(5, 76%, 62%, .8);
+  transition: opacity .3s, visibility .3s, background-color .3s;
+} */
 
 /* .aspect-text.revoils-text {
   display: flex;

@@ -10,13 +10,13 @@ export class HomeComponent implements OnInit {
     "https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=63e0c53c-2a5c-4e52-a32a-8cb49a458f0a&client_is_mobile=true&glfa_cid=574196014.1555701256&glfa_t=1555707158912";
   urlSafe: SafeResourceUrl;
   setUrl: Function;
+  showModal: any = true;
   constructor(public sanitizer: DomSanitizer) {}
   public setIframUrl() {
     this.urlSafe = this.sanitizer.bypassSecurityTrustResourceUrl(this.url);
     console.log("hello");
-  
-
   }
-  ngOnInit() {}
-
+  ngOnInit() {
+    // this.showModal = 1;
+  }
 }
