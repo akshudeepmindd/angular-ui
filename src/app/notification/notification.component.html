@@ -1,12 +1,36 @@
 <div class="fixed-width">
   <div class="top-fixed-bar">
     <div class="header">
-      <div class="">
+      <div class="d-flex justify-content-between">
         <div class="">
           <a routerLink="/"
-            ><i class="fa fa-chevron-left float-left" aria-hidden="true"></i
+            ><i
+              class="fa fa-chevron-left"
+              aria-hidden="true"
+              style="width: 33.1%;"
+            ></i
           ></a>
-          <div class="info-text pl-4">Notification</div>
+        </div>
+        <div class="">
+          <span *ngIf="show == false" class="info-text" style="width: 33.1%;"
+            >Notification
+          </span>
+        </div>
+        <div class="">
+          <a (click)="showSearch()">
+            <i
+              *ngIf="show == false"
+              class="fa fa-search"
+              aria-hidden="true"
+            ></i>
+            <i *ngIf="show == true" class="fa fa-times" aria-hidden="true"></i>
+          </a>
+          <input *ngIf="show == true" type="" class="serch-field" />
+          <i
+            *ngIf="show == true"
+            class="fa fa-search float-right search"
+            aria-hidden="true"
+          ></i>
         </div>
       </div>
     </div>

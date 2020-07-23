@@ -79,6 +79,7 @@ body {
 .fa-chevron-left:before, .fa-share-square-o:before {
   color: #fff;
   font-size: 18px;
+  vertical-align: sub;
 }
 
 .bg-grey {
@@ -184,6 +185,7 @@ body {
 .fa.fa-search:before {
   color: #fff;
   font-size: 18px;
+  vertical-align: sub;
 }
 
 .more-text {
@@ -361,6 +363,28 @@ body {
   width: 230px;
 }
 
+.serch-field {
+  background-color: #ccc;
+  position: relative;
+  border: 0;
+  border-radius: 8px;
+  margin-right: 18px;
+}
+
+.fa.fa-search.search:before {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.fa-times:before {
+  position: absolute;
+  right: 5px;
+  top: 16px;
+  color: #fff;
+  font-size: 24px;
+}
+
 /* .top-btn {
   position: fixed;
   bottom: 26px;
@@ -380,7 +404,6 @@ body {
 .fa-long-arrow-right:before {
   color: #fff;
   font-size: 16px;
-  vertical-align: sub;
 }
 
 .modal-header.header {
@@ -452,7 +475,6 @@ body {
   }
   .border-row {
     border: 1px solid #ccc;
-    padding: 6%;
     padding-bottom: 12%;
   }
   .carousel-item img {
@@ -464,6 +486,12 @@ body {
   }
   .revoils-text img {
     width: 200px!important;
+  }
+  .container {
+    max-width: 770px;
+  }
+  .serch-field {
+    min-width: 300px!important;
   }
 }
 
@@ -529,6 +557,9 @@ body {
     min-height: 300px;
     height: 100%;
   }
+  .serch-field {
+    min-width: 300px!important;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -546,6 +577,9 @@ body {
   .revoils-text img {
     width: 190px!important;
   }
+  .serch-field {
+    min-width: 781px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -559,11 +593,18 @@ body {
     min-height: 480px;
     height: 100%;
   }
+  .serch-field {
+    width: 781px!important;
+    
+  }
 }
 
 @media only screen and (max-width: 360px) {
   .revoils-text img {
     width: 196px;
+  }
+  .serch-field {
+    min-width: 300px!important;
   }
 }
 
@@ -571,12 +612,18 @@ body {
   .revoils-text img {
     width: 288px;
   }
+  .serch-field {
+    min-width: 300px!important;
+  }
 }
 
 @media only screen and (max-width: 411px) {
   .carousel-item img {
     min-height: 353px;
     height: 100%;
+  }
+  .serch-field {
+    min-width: 300px!important;
   }
 }
 
@@ -588,10 +635,16 @@ body {
     min-height: 400px;
     height: 100%;
   }
+  .serch-field {
+    min-width: 300px!important;
+  }
 }
 
 @media only screen and (min-width: 320px) {
   .revoils-text img {
     width: 149px;
+  }
+  .serch-field {
+    min-width: 300px!important;
   }
 }

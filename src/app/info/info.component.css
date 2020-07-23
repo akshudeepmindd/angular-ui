@@ -37,6 +37,7 @@
 .fa-chevron-left:before, .fa-share-square-o:before {
   color: #fff;
   font-size: 18px;
+  vertical-align: sub;
 }
 
 .bg-grey {
@@ -59,6 +60,7 @@
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  vertical-align: text-top;
 }
 
 .fa.fa-sitemap:before {
